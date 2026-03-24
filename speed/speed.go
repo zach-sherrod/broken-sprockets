@@ -1,9 +1,9 @@
 package speed
 
 import (
-	"broken_sprockets/distance"
-	"broken_sprockets/duration"
-	"broken_sprockets/quantity"
+	"github.com/zach-sherrod/broken_sprockets/distance"
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/quantity"
 )
 
 const (

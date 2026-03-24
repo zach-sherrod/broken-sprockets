@@ -1,8 +1,9 @@
 package duration
 
 import (
-	"broken_sprockets/testHelpers"
 	"testing"
+
+	"github.com/zach-sherrod/broken_sprockets/testHelpers"
 )
 
 func TestMillisecondsToSeconds(t *testing.T) {

@@ -1,10 +1,11 @@
 package speed
 
 import (
-	"broken_sprockets/distance"
-	"broken_sprockets/duration"
-	"broken_sprockets/testHelpers"
 	"testing"
+
+	"github.com/zach-sherrod/broken_sprockets/distance"
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/testHelpers"
 )
 
 func TestMilesPerHourToMetersPerSecond(t *testing.T) {

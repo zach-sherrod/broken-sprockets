@@ -1,6 +1,6 @@
 package pressure
 
-import "broken_sprockets/quantity"
+import "github.com/zach-sherrod/broken_sprockets/quantity"
 
 const (
 	pascalsPerKilopascal = 1_000.0

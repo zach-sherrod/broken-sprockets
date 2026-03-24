@@ -1,11 +1,12 @@
 package angularvelocity
 
 import (
-	"broken_sprockets/angle"
-	"broken_sprockets/duration"
-	"broken_sprockets/quantity"
 	"errors"
 	"math"
+
+	"github.com/zach-sherrod/broken_sprockets/angle"
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/quantity"
 )
 
 const (

@@ -1,11 +1,12 @@
 package angularvelocity
 
 import (
-	"broken_sprockets/angle"
-	"broken_sprockets/duration"
-	"broken_sprockets/testHelpers"
 	"math"
 	"testing"
+
+	"github.com/zach-sherrod/broken_sprockets/angle"
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/testHelpers"
 )
 
 func TestDegreesPerSecondToRadiansPerSecond(t *testing.T) {

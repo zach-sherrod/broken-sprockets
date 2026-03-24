@@ -1,9 +1,10 @@
 package acceleration
 
 import (
-	"broken_sprockets/duration"
-	"broken_sprockets/quantity"
-	"broken_sprockets/speed"
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/quantity"
+	"github.com/zach-sherrod/broken_sprockets/speed"
+
 	"errors"
 )
 

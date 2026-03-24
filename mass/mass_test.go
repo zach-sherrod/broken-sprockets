@@ -1,4 +1,4 @@
-package distance
+package mass
 
 import (
 	"testing"
@@ -6,45 +6,45 @@ import (
 	"github.com/zach-sherrod/broken_sprockets/testHelpers"
 )
 
-func TestFeetToMeters(t *testing.T) {
-	got := ToMeters(Feet(1))
-	want := 0.3048
+func TestPoundsToKilograms(t *testing.T) {
+	got := ToKilograms(Pounds(1.0))
+	want := 0.45359237
 
 	if !testHelpers.AlmostEqual(got, want, 1e-12) {
 		t.Fatalf("got %v, want %v", got, want)
 	}
 }
 
-func TestMetersToFeet(t *testing.T) {
-	got := ToFeet(Meters(1))
-	want := 3.280839895013123
+func TestKilogramsToPounds(t *testing.T) {
+	got := ToPounds(Kilograms(1.0))
+	want := 2.2046226218487757
 
 	if !testHelpers.AlmostEqual(got, want, 1e-12) {
 		t.Fatalf("got %v, want %v", got, want)
 	}
 }
 
-func TestMetersToKilometers(t *testing.T) {
-	got := ToKilometers(Meters(1))
-	want := 0.001
+func TestOuncesToKilograms(t *testing.T) {
+	got := ToKilograms(Ounces(16.0))
+	want := 0.45359237
 
 	if !testHelpers.AlmostEqual(got, want, 1e-12) {
 		t.Fatalf("got %v, want %v", got, want)
 	}
 }
 
-func TestMilesToMeters(t *testing.T) {
-	got := ToMeters(Miles(1))
-	want := 1609.344
+func TestGramsToKilograms(t *testing.T) {
+	got := ToKilograms(Grams(1000.0))
+	want := 1.0
 
 	if !testHelpers.AlmostEqual(got, want, 1e-12) {
 		t.Fatalf("got %v, want %v", got, want)
 	}
 }
 
-func TestDistanceAdd(t *testing.T) {
-	got := ToMeters(Feet(10).Add(Meters(1)))
-	want := 4.048
+func TestMassAdd(t *testing.T) {
+	got := ToKilograms(Kilograms(2.0).Add(Pounds(10.0)))
+	want := 2.0 + 4.5359237
 
 	if !testHelpers.AlmostEqual(got, want, 1e-12) {
 		t.Fatalf("got %v, want %v", got, want)

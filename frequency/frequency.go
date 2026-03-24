@@ -1,9 +1,10 @@
 package frequency
 
 import (
-	"broken_sprockets/duration"
-	"broken_sprockets/quantity"
 	"errors"
+
+	"github.com/zach-sherrod/broken_sprockets/duration"
+	"github.com/zach-sherrod/broken_sprockets/quantity"
 )
 
 const (
