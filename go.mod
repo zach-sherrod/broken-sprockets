@@ -1,3 +1,3 @@
 module github.com/zach-sherrod/broken_sprockets
 
-go 1.25
+go 1.23
