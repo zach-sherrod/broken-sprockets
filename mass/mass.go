@@ -1,6 +1,6 @@
 package mass
 
-import "github.com/zach-sherrod/broken_sprockets/quantity"
+import "github.com/zach-sherrod/broken-sprockets/quantity"
 
 const (
 	kilogramsPerGram      = 0.001

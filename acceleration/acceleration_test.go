@@ -3,9 +3,9 @@ package acceleration
 import (
 	"testing"
 
-	"github.com/zach-sherrod/broken_sprockets/duration"
-	"github.com/zach-sherrod/broken_sprockets/speed"
-	"github.com/zach-sherrod/broken_sprockets/testHelpers"
+	"github.com/zach-sherrod/broken-sprockets/duration"
+	"github.com/zach-sherrod/broken-sprockets/speed"
+	"github.com/zach-sherrod/broken-sprockets/testHelpers"
 )
 
 func TestFeetPerSecondSquaredToMetersPerSecondSquared(t *testing.T) {

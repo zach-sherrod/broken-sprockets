@@ -3,7 +3,7 @@ package duration
 import (
 	"testing"
 
-	"github.com/zach-sherrod/broken_sprockets/testHelpers"
+	"github.com/zach-sherrod/broken-sprockets/testHelpers"
 )
 
 func TestMillisecondsToSeconds(t *testing.T) {

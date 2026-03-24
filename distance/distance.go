@@ -1,6 +1,6 @@
 package distance
 
-import "github.com/zach-sherrod/broken_sprockets/quantity"
+import "github.com/zach-sherrod/broken-sprockets/quantity"
 
 const (
 	metersPerKilometer    = 1000.0

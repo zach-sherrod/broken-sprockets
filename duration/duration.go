@@ -1,6 +1,6 @@
 package duration
 
-import "github.com/zach-sherrod/broken_sprockets/quantity"
+import "github.com/zach-sherrod/broken-sprockets/quantity"
 
 const (
 	nanosecondsPerMicrosecond = int64(1_000)

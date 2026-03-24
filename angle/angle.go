@@ -3,7 +3,7 @@ package angle
 import (
 	"math"
 
-	"github.com/zach-sherrod/broken_sprockets/quantity"
+	"github.com/zach-sherrod/broken-sprockets/quantity"
 )
 
 const (
